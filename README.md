@@ -205,20 +205,6 @@ Users → Azure AD Groups → RBAC Roles → Azure Subscription
         |  (Resources Access)  |
         +----------------------+
 ```
-```
-
----
-
-## 🚀 Future Enhancements
-
-* 🔐 Integrate Azure Key Vault
-* 🔄 Add GitHub Actions CI/CD pipeline
-* 📦 Store Terraform state in Azure Storage
-* 📊 Add architecture diagram
-* 🏢 Implement resource group-level RBAC
-
----
-
 ## 📧 Author
 
 GitHub: [https://github.com/nigarpk27](https://github.com/nigarpk27)
