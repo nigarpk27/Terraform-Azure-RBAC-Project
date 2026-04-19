@@ -1,7 +1,3 @@
-Here’s a clean, professional README specifically for your **Terraform Azure RBAC project** 👇
-
----
-
 # 🚀 Terraform Azure RBAC Project
 
 ## 📌 Project Overview
