@@ -171,9 +171,40 @@ az role assignment list --all --output table
 
 ```id="flow1"
 Users → Azure AD Groups → RBAC Roles → Azure Subscription
-<img width="1536" height="1024" alt="architecture png" src="https://github.com/user-attachments/assets/ae515bf7-9a4c-4af6-b542-bb3b8492d539" />
+## 🧠 Architecture Diagram
 
-
+```text
+          +-------------------+
+          |   Terraform Code  |
+          |     (main.tf)     |
+          +---------+---------+
+                    |
+                    v
+      +---------------------------+
+      | Microsoft Entra ID (AAD)  |
+      |                           |
+      |  Users → Groups           |
+      |                           |
+      |  Admin → Admin-Group      |
+      |  Dev   → Dev-Group        |
+      |  Read  → ReadOnly-Group   |
+      +------------+--------------+
+                   |
+                   v
+        +----------------------+
+        |     Azure RBAC       |
+        |                      |
+        | Admin → Owner        |
+        | Dev   → Contributor  |
+        | Read  → Reader       |
+        +-----------+----------+
+                    |
+                    v
+        +----------------------+
+        | Azure Subscription   |
+        |  (Resources Access)  |
+        +----------------------+
+```
 ```
 
 ---
