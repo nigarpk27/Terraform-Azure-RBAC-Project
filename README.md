@@ -78,11 +78,7 @@ terraform-azure-users/
 ├── main.tf
 ├── .gitignore
 └── README.md
-<img width="1536" height="1024" alt="architecture png" src="https://github.com/user-attachments/assets/779ef349-981a-47d9-9301-89e043418e23" />
-
-
 ```
-
 ---
 
 ## ⚙️ Prerequisites
@@ -175,6 +171,9 @@ az role assignment list --all --output table
 
 ```id="flow1"
 Users → Azure AD Groups → RBAC Roles → Azure Subscription
+<img width="1536" height="1024" alt="architecture png" src="https://github.com/user-attachments/assets/ae515bf7-9a4c-4af6-b542-bb3b8492d539" />
+
+
 ```
 
 ---
