@@ -78,6 +78,9 @@ terraform-azure-users/
 ├── main.tf
 ├── .gitignore
 └── README.md
+<img width="1536" height="1024" alt="architecture png" src="https://github.com/user-attachments/assets/779ef349-981a-47d9-9301-89e043418e23" />
+
+
 ```
 
 ---
